@@ -109,9 +109,14 @@ aside a:hover {
     font-size: 18px;
     color: darkorange
 }
+#content #imgIndoorCourt, #content #imgOutdoorCourt {
+    width: 150px;
+    height: 90px;
+}
 figure img {
     border: solid 2px black;
 }
+
 footer {
     background-color: black;
     color: white;
