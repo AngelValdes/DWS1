@@ -72,7 +72,7 @@ aside {
     top: 145px;
     right: 20px;
     width: 150px;
-    height: 400px;
+    height: 250px;
     text-align: center
 }
 aside h3 {
@@ -85,6 +85,13 @@ aside h6 {
 }
 aside #brandList {
     text-align: left;
+}
+aside a {
+    color: white;
+    text-decoration: none;
+}
+aside a:hover {
+     color: yellow;
 }
 #content {
 	padding-bottom:80px; /* Height of the footer element plus margins and paddings */
