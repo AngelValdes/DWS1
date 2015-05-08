@@ -1,0 +1,183 @@
+﻿html,
+body {
+    margin: 0;
+    padding:0;
+	height:100%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEZFRkM3QjVCNTcyMTFFMzlCOTRDN0NGQzkyQTE5QjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEZFRkM3QjZCNTcyMTFFMzlCOTRDN0NGQzkyQTE5QjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowRkVGQzdCM0I1NzIxMUUzOUI5NEM3Q0ZDOTJBMTlCMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowRkVGQzdCNEI1NzIxMUUzOUI5NEM3Q0ZDOTJBMTlCMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtYo758AAAAUSURBVHjaYmBgYPBlwAGoKQEQYABNHAGCGLO+bwAAAABJRU5ErkJggg==') /*../images/slider-pattren.png*/;
+      font-family: verdana;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 22px;
+    padding: 8px;
+    font-size: 14px;
+    min-width: 360px;
+}
+header #logoContainer {
+   float: left;
+}
+header #logo {
+     width:75px; 
+    height:50px;
+}
+header #companyName {
+    float: left;
+    padding-left: 5px;
+    font-size: 16px;
+}
+header #language {
+    width: 180px;
+    float: right;
+}
+nav {
+    margin-top: 25px;
+    height: 50px;
+    width: 100%;
+    background: #ff6a00;
+    background: rgba(255,0,0,.7);
+    padding: 5px;
+    overflow:hidden;
+    font-size: 16px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: yellow;
+}
+nav .currentLink {
+   color: black;
+}
+nav ul {
+    /*float: right;*/
+    text-align: center
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+aside {
+    float: right;
+    background: #ff6a00;
+    background: rgba(255,0,0,.7);
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    width: 150px;
+    height: 400px;
+    text-align: center
+}
+aside h3 {
+    color: white;
+    margin-bottom: 2px;
+}
+aside h6 {
+    margin-top: 0;
+    color: #ebe7e7
+}
+aside #brandList {
+    text-align: left;
+}
+#content {
+	padding-bottom:80px; /* Height of the footer element plus margins and paddings */
+    padding-right: 180px; /* width of the aside element plus margins and paddings */
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+}
+#content h1 {
+    font-size: 22px;
+    color: #ff6a00;
+    color: rgba(255,0,0,.7);
+}
+#content h2 {
+    font-size: 18px;
+    color: darkorange
+}
+figure img {
+    border: solid 2px black;
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-width: 550px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    position:absolute;
+    bottom:0;
+    left: 0;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+#mainSection {
+    min-height: 300px;
+}
+
+.top {  
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+}
+.top a {
+    text-decoration: none;
+    color: #ff6a00;
+    color: rgba(255,0,0,.7);
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #ff6a00;
+    border-top: 1px solid rgba(255,0,0,.7);
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+    border: 8px solid black;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
