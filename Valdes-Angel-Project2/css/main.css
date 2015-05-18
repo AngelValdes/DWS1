@@ -11,7 +11,7 @@
 #wrapper {
 	min-height:100%;
 	position:relative;
-    border: 1px #fff solid;
+    /*border: 1px #fff solid;*/
 }
 #topBar {
     background-color: #000;
@@ -49,7 +49,7 @@ nav {
     font-size: 16px;
     min-width: 550px;
 }
-nav a, a:visited, a:link {
+nav a, a:link, a:visited  {
     color: #fff;
     text-decoration: none;
 }
