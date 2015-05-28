@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Forms</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="page">
+			<div id="logo">
+				<img src="images/logo.png" alt="Cafe Vincze" />
+			</div>
+			<ul id="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Location</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#" id="current-page">Contact</a></li>
+			</ul>
+			<div id="contact_content">
+				<h1>Contact</h1>
+			    <form action="http://www.example.com/form.php" method="POST">
+			        <fieldset>
+			            <legend>Join our email list</legend>
+			            <div>
+			                <label class="title" for="name">Your name:</label><input type="text" id="name" />
+			                <label class="title" for="email">Your email:</label><input type="text" id="email" />
+			            </div>
+			            <div>
+			                <label class="title" for="birthday">Birthday Month:</label>
+			                <select id="birthday">
+			                    <option value="1">January</option>
+			                    <option value="2">February</option>
+			                    <option value="3">March</option>
+			                    <option value="4">April</option>
+			                    <option value="5">May</option>
+			                    <option value="6">June</option>
+			                    <option value="7">July</option>
+			                    <option value="8">August</option>
+			                    <option value="9">September</option>
+			                    <option value="10">October</option>
+			                    <option value="11">November</option>
+			                    <option value="12">December</option>
+			                </select>
+			            </div>
+			        </fieldset>
+			        <div id="submit">
+                        <input type="submit" value="Register" />
+			        </div>
+			    </form>
+			</div><!-- /contact_content -->
+		</div><!-- /page -->
+	</body>
+</html>
