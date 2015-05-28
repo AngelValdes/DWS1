@@ -105,6 +105,6 @@ th, td {
     border-right: 1px solid #cbd2d8;
     text-shadow: 1px 1px 1px #fff;
 }
-th, td .even{
+th .even, td .even{
     background-color: #e8eff5;
 }
